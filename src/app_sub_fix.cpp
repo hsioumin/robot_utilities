@@ -95,11 +95,11 @@ void chatterCallback(const std_msgs::String::ConstPtr& msg)
   string tmp = msg->data;
   if(tmp.compare("1")==0)
   {
-		    SlamMode();
+//		    SlamMode();
   }
   else if(tmp.compare("2")==0)
   {
-        NavMode();
+//        NavMode();
   }
   else if(tmp.compare("3")==0)
   {
